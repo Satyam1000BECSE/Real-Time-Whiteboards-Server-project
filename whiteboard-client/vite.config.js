@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/create-room': 'https://real-time-whiteboards-server-project.vercel.app'
+      '/create-room': 'https://real-time-whiteboards-server-project.onrender.com'
     }
   }
 })
