@@ -9,7 +9,7 @@ const CreateRoom = () => {
 
   const handleCreateRoom = async () => {
     try {
-      const res = await axios.post('http://localhost:8080/api/rooms/create', {
+      const res = await axios.post('https://real-time-whiteboards-server-project.vercel.app/api/rooms/create', {
         userId,
       });
       const roomId = res.data.roomId;
