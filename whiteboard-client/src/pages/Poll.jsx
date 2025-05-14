@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { io } from 'socket.io-client';
 
-const socket = io('http://localhost:8080'); // Adjust to your server URL
+const socket = io('https://real-time-whiteboards-server-project.vercel.app'); // Adjust to your server URL
 
 export default function Poll({visible}) {
     if (!visible) return null;
