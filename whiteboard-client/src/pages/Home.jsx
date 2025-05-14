@@ -27,7 +27,7 @@ function Home() {
 
   const fetchProducts = async () => {
     try {
-      const url = "https://real-time-whiteboards-server-project.vercel.app/products";
+      const url = "https://real-time-whiteboards-server-project.onrender.com/products";
       const headers = {
         headers: {
           'Authorization': localStorage.getItem('token')
