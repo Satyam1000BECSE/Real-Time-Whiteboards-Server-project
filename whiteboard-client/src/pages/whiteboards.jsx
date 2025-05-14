@@ -8,7 +8,7 @@ import Poll from "./Poll";
 
 const userId = localStorage.getItem('userId');
 
-const socket = io('https://real-time-whiteboards-server-project.vercel.app');
+const socket = io('https://real-time-whiteboards-server-project.onrender.com');
 
 
 
