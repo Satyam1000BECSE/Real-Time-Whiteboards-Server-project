@@ -11,7 +11,7 @@ const JoinRoom = () => {
 
   const handleJoin = async () => {
     try {
-      await axios.post(`https://real-time-whiteboards-server-project.vercel.app/api/rooms/join`, {
+      await axios.post(`https://real-time-whiteboards-server-project.onrender.com/api/rooms/join`, {
         roomId,
         userId,
       });
