@@ -3,13 +3,12 @@ import React, { useRef, useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import {io} from 'socket.io-client';
 import VideoCall from './VideoCall';
-import MultiUserVideoCall from './MultiUserVideoCall';
 import Poll from "./Poll"; 
 
 
 const userId = localStorage.getItem('userId');
 
-const socket = io('http://localhost:8080');
+const socket = io('https://real-time-whiteboards-server-project.vercel.app');
 
 
 
